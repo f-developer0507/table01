@@ -1,0 +1,38 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-wrapper {
+    width: 300px;
+}
+
+.table-wrapper table {
+    width: 100%;
+    
+    border-color: green;    
+}
+
+.table-wrapper table thead {
+    border-color: green;
+    text-transform: capitalize;
+    background-color: orange;
+}
+
+.table-wrapper table tbody {
+    border-color: green;
+}
+
+.table-wrapper table td {
+    border-color: green;
+    text-transform: capitalize;
+    text-align: center;
+}
